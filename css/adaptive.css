@@ -1,0 +1,503 @@
+@media screen and (min-width: 1920px) {
+    .background-section {
+        background-size: 100% auto;
+    }
+}
+
+@media screen and (max-width: 1229px) {
+    .container {
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .main__image {
+        transform: scale(0.8);
+    }
+
+    .about__image {
+        transform: scale(0.9);
+    }
+
+    .courses__items {
+        gap: 20px;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .about__container {
+        grid-column-gap: 80px;
+    }
+}
+
+@media screen and (max-width: 1190px) {
+    .courses__items {
+        max-width: 605px;
+        margin: 0 auto;
+    }
+}
+
+@media screen and (max-width: 1023px) {
+    .header__list {
+        width: 414px;
+    }
+
+    .main {
+        padding-bottom: 80px;
+    }
+
+    .main__title {
+        font-size: 38px;
+    }
+
+    .main__image {
+        transform: translateX(-50px) scale(0.8);
+    }
+
+    .main__info {
+        max-width: 367px;
+    }
+
+    .about__image {
+        transform: scale(0.8);
+    }
+
+    .about__container {
+        grid-column-gap: 40px;
+        grid-gap: 20px;
+    }
+
+    .about__description {
+        margin-top: unset;
+    }
+
+    .courses {
+        margin-top: 60px;
+    }
+
+    .footer__button {
+        display: none;
+    }
+
+    .popup__main {
+        padding: 20px;
+        height: 680px;
+        max-width: 800px;
+    }
+
+    .popup__table-section {
+        width: 600px;
+        padding: 20px;
+        margin-bottom: 30px;
+    }
+
+    .popup__timetable {
+        justify-content: center;
+        column-gap: 20px;
+    }
+}
+
+@media screen and (max-width: 850px) {
+    .header__container {
+        flex-wrap: wrap;
+        justify-content: center;
+        column-gap: 20px;
+    }
+
+    .header__menu {
+        order: 3;
+        margin-top: 15px;
+    }
+
+    .main__info {
+        max-width: 300px;
+    }
+
+    .main__image {
+        transform: translateX(-50px) scale(0.7);
+    }
+
+    .about__container {
+        grid-column-gap: 20px;
+        grid-gap: 10px;
+    }
+
+    .about__image {
+        transform: scale(0.8);
+    }
+
+    .room_blocks {
+        flex-direction: column;
+        gap: 40px;
+    }
+
+    .block {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .block__title {
+        text-align: center;
+        order: 1;
+    }
+
+    .block__description {
+        text-align: center;
+        margin: 0 auto;
+        order: 2;
+    }
+
+    .block__image {
+        order: 3;
+        margin-top: 30px;
+    }
+
+    .block:first-child .block__image {
+        margin-bottom: 0;
+    }
+
+    .rooms__container {
+        margin-top: 80px;
+    }
+
+    .about__advantages .advantage:nth-child(2) {
+        max-width: 145px;;
+    }
+
+    .popup__title {
+        margin-bottom: 20px;
+    }
+
+    .popup__timetable {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .popup__table-section {
+        width: 540px;
+    }
+
+    .popup__inputs {
+        gap: 20px;
+    }
+
+    .table__title {
+        margin-bottom: 20px;
+    }
+
+    .popup__days ul {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        gap: 10px;
+        margin-bottom: 20px;
+        max-width: 350px;
+    }
+
+    .popup__days ul li:not(.popup__days ul li:first-child) {
+        margin-top: unset;
+    }
+
+    .popup__main {
+        height: 680px;
+        max-width: 580px;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .background-section {
+        background-size: calc(320%);
+    }
+
+    .title {
+        font-size: 30px;
+    }
+
+    .main {
+        margin-top: 40px;
+        padding-bottom: 40px;
+    }
+
+    .main__container {
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: center;
+    }
+
+    .main__info {
+        max-width: 300px;
+        order: 2;
+    }
+
+    .main__image {
+        order: 1;
+        transform: scale(0.7) translateY(-150px);
+        height: 400px;
+    }
+
+    .about__image img {
+        width: 100%;
+    }
+
+    .about__container {
+        grid-template-columns: minmax(200px, 400px) 1fr;
+    }
+
+    .main__info {
+        max-width: 500px;
+        text-align: center;
+    }
+
+    .main__title {
+        text-align: center;
+        margin-bottom: 30px;
+    }
+
+    .main__description {
+        text-align: center;
+        margin-bottom: 40px;
+    }
+
+    .advantage__title {
+        font-size: 30px;
+    }
+
+    .courses {
+        margin-top: 40px;
+    }
+
+    .rooms__container {
+        margin-top: 40px;
+    }
+
+    .rooms {
+        margin-bottom: 60px;
+    }
+
+    .footer__block {
+        flex-direction: column;
+        gap: 10px;
+        align-items: center;
+    }
+
+    .contact {
+        width: 300px;
+        height: 100%;
+        padding: 20px;
+        box-sizing: border-box;
+    }
+
+    iframe {
+        height: 500px;
+    }
+
+    .contact__form {
+        margin-top: 30px;
+    }
+}
+
+
+@media screen and (max-width: 620px) {
+    .about__container {
+        justify-items: center;
+        grid-template-columns: 1fr;
+        grid-row-gap: 30px;
+        grid-template-areas:
+        "title"
+        "description"
+        "image"
+        "advantages";
+    }
+
+    .about__title {
+        text-align: center;
+    }
+
+    .about__description {
+        text-align: center;
+    }
+
+    .about__advantages {
+        flex-wrap: wrap;
+        justify-content: center;
+        max-width: 300px;
+        row-gap: 15px;
+    }
+
+    .footer__container {
+        flex-direction: column;
+        row-gap: 20px;
+    }
+
+    .popup__main {
+        height: 750px;
+        max-width: 330px;
+        overflow-y: scroll;
+    }
+
+    .popup__inputs {
+        flex-direction: column;
+        gap: 20px;
+        margin-bottom: 20px;
+    }
+
+    .popup__table-section {
+        margin-bottom: 20px;
+        width: 100%;
+    }
+
+    .table {
+        width: 100%;
+        overflow-x: scroll;
+        padding-bottom: 20px;
+    }
+
+    .popup__table {
+        width: 450px;
+    }
+
+    .table__time {
+        width: 30px;
+    }
+
+    td {
+        width: 100px;
+    }
+
+    .popup__main svg {
+        top: 10px;
+        right: 10px;
+    }
+
+    .video {
+        width: 100%;
+    }
+
+    .contact {
+        position: unset;
+        width: 100%;
+    }
+
+    .location .container {
+        padding-left: 0;
+        padding-right: 0;
+        margin-top: -5px;
+    }
+
+    .contact {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        gap: 20px;
+    }
+
+    .contact__input input {
+        max-width: 200px;
+    }
+}
+
+@media screen and (max-width: 450px) {
+    .main__image {
+        transform: scale(0.6) translateY(-150px);
+        height: 350px;
+    }
+
+    .header__container {
+        align-items: flex-start;
+        justify-content: space-between;
+    }
+
+    .header__menu {
+        display: none;
+    }
+
+    .header__button {
+        display: none;
+    }
+
+    .burger {
+        display: flex;
+        cursor: pointer;
+    }
+
+    .burger svg {
+        width: 36px;
+        height: 36px;
+        fill: #9F2546;
+        margin-right: 20px;
+    }
+
+    .menu.open {
+        position: fixed;
+        display: flex;
+        justify-content: center;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        flex-direction: column;
+        align-items: center;
+        background-color: #ffffff;
+        z-index: 10;
+        opacity: 0.95;
+    }
+
+    .menu__close {
+        position: absolute;
+        top: 20px;
+        right: 20px;
+        fill: #9F2546;
+        width: 36px;
+        height: 36px;
+        cursor: pointer;
+    }
+
+    .teacher__image {
+        width: 230px;
+        height: 230px;
+    }
+
+    .contact {
+        flex-direction: column;
+        gap: 0;
+        align-items: flex-start;
+    }
+    .contact__input input {
+        max-width: 255px;
+    }
+
+    .block {
+        width: 350px;
+    }
+
+    .bg-mandala {
+        width: 100%;
+    }
+}
+
+
+@media screen and (max-width: 374px) {
+    .main__image {
+        transform: scale(0.6) translateY(-170px);
+        height: 330px;
+    }
+
+    .main__description {
+        font-size: 15px;
+    }
+
+    .course__image {
+        width: 220px;
+        height: 220px;
+        margin-bottom: 10px;
+    }
+
+    .course__image img {
+        width: 80%;
+    }
+
+    .course__title {
+        margin-bottom: 10px;
+    }
+}
